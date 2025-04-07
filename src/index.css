@@ -6,7 +6,7 @@ body,html {
 	width: 100%;
 	height: 100vh;
    font-family: serif, sans-serif,arial;
-	padding:4px;
+	padding:0;
 	box-sizing: border-box;
 	scroll-behavior: smooth;
 	

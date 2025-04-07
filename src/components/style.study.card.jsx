@@ -1,9 +1,9 @@
 import React from 'react'
 function StyleStudyCard(props){
 	return(
-		<section  className="grid gap-4 grid-cols-1 sm:bg-blue-50 lg:bg-white md:grid-cols-2 lg:grid-cols-2 p-1/2 md:items-center">
+		<section  className="grid gap-4 grid-cols-1 sm:bg-blue-50 lg:bg-white md:grid-cols-2 lg:grid-cols-2 p-8 md:items-center">
 	<div>
-		<img src="/plant.jpg" alt="test image" className="w-full rounded-lg" />
+		<img src="/game.jpg" alt="test image" className="w-full rounded-lg" />
 	</div>
   <div>
 <h1 className="text-[60px] font-extrabold bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500 mb-2 text-center text-transparent bg-clip-text " >Enjoy Game!</h1>
