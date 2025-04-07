@@ -5,7 +5,7 @@ import StyleStudyCard from './components/style.study.card';
 import { nanoid } from 'nanoid';
 import Confetti from 'react-confetti';
 import { Clock, Repeat } from 'lucide-react';
-
+import Navbar from './components/NavBar';
 function App() {
   const [dice, setDice] = useState(generateNumbers());
   const [rollCount, setRollCount] = useState(0);
@@ -90,6 +90,7 @@ function App() {
 
   return (
     <>
+	  <Navbar />
       <StyleStudyCard />
 	  <section className="p-8 ">
 	  {gameWon && <Confetti width={window.innerWidth} height={window.innerHeight} />}
