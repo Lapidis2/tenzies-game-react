@@ -93,7 +93,7 @@ function App() {
 	  <Navbar />
       <StyleStudyCard />
 	  <section className="p-8 ">
-	  {gameWon && <Confetti width={window.innerWidth} height={window.innerHeight} />}
+	  {gameWon && <Confetti width={window.innerWidth} height={document.documentElement.scrollHeight} />}
 
 <h1 className="text-center text-3xl font-extrabold mt-4">🎲 Dice Roller</h1>
 <p className="text-center text-gray-600 px-4">
